@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            font-size: 2rem;
+            color: white;
+        }
+        .firstside{
+            display: flex;
+            justify-content: space-around;
+        }
+        b{
+            color: rgb(58, 57, 57);
+        }
+        body{
+            background-color: white;
+        }
+        h4{
+            color: white;
+        }
+    </style>
+    <script>
+        function fun()
+        {
+            var name=(document.getElementById("name").value)
+            var lastname=(document.getElementById("lastname").value)
+            var book=(document.getElementById("book").value)
+            var no=(document.getElementById("number").value)
+            var email=(document.getElementById("email").value)
+            var add=(document.getElementById("addres").value)
+            alert(" BOOK ADDED!!  "+"  as name  " +name+" "+lastname+" book name "+book)
+            
+
+        }
+    </script>
+
+</head>
+<body>
+    <main>
+        
+            
+            <aside style="width:70%;float:left;background-color: black;color: white;padding: 10px;">
+                The Jungle Book (1894) is a collection of stories by the English author Rudyard Kipling. Most of the characters are animals such as Shere Khan the tiger and Baloo the bear, though a principal character is the boy or "man-cub" Mowgli, who is raised in the jungle by wolves. Most stories are set in a forest in India; one place mentioned repeatedly is "Seeonee" (Seoni), in the central state of Madhya Pradesh.
+
+A major theme in the book is abandonment followed by fostering, as in the life of Mowgli, echoing Kipling's own childhood. The theme is echoed in the triumph of protagonists including Rikki-Tikki-Tavi and The White Seal over their enemies, as well as Mowgli's. Another important theme is of law and freedom; the stories are not about animal behaviour, still less about the Darwinian struggle for survival, but about human archetypes in animal form. They teach respect for authority, obedience, and knowing one's place in society with "the law of the jungle", but the stories also illustrate the freedom to move between different worlds, such as when Mowgli moves between the jungle and the village. Critics have also noted the essential wildness and lawless energies in the stories, reflecting the irresponsible side of human nature.
+The Jungle Book has remained popular, partly through its many adaptations for film and other media. Critics such as Swati Singh have noted that even critics wary of Kipling for his supposed imperialism have admired the power of his storytelling.[1] The book has been influential in the scout movement, whose founder, Robert Baden-Powell, was a friend of Kipling.[2] Percy Grainger composed his Jungle Book Cycle around quotations from the book.
+
+
+
+            </aside>
+
+
+            <img src="jungle.jpeg" height="499px">
+
+            
+         <aside style="width:70%;float:left;background-color: gray;color: white;padding: 10px;">
+
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <form>
+                 <label>          enter your first name </label>
+                 <input type="text" id="name">
+                 <br>
+                 <label>           Enter your last name</label>
+                <input type="text" id="lastname">
+                <br>
+                <label>            enter phone number</label>
+                <input type="password" id="number">
+                <br>
+                <label>Enter your email</label>
+                <input type="email" id="email">
+                <br>
+                <label>Enter your address</label>
+                <input type="text" id="addres">
+                <br>
+                <label>Enter your book</label>
+                <input type="text" id="book">
+                <br>
+                <input type="button" onclick="fun()" value="submit">
+            </form>
+        </aside>
+        <img src="junglea.jpeg" height="500px"><br>
+        <h4>author : Rudyard Kipling</h4>
+        <h4>30/12/1865-18/01/1936</h4>   
+</main>
+</body>
+</html>
